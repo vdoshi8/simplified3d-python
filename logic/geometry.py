@@ -1,5 +1,3 @@
-
-
 def get_x(current_line: str) -> float:
     """
     Extracts the X coordinate from a G-code line.
@@ -67,4 +65,4 @@ def get_z(current_line: str) -> float:
     except ValueError:
         return 0.0
 
-# ← exactly one newline at EOF
+

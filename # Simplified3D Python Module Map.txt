@@ -1,0 +1,33 @@
+# Simplified3D Python Module Map
+
+## 1. geometry.py  
+- convertToRadians  
+- getX, getY, getZ  
+- getVectorMagnitude, getVectorDirection  
+- getTurn  
+
+## 2. gcode.py  
+- printAndChangeUltrasoundState  
+- cleanTool  
+- printBlock  
+
+## 3. io_utils.py  
+- load_gcode(path)  
+- save_gcode(path, lines)  
+
+## 4. slicer.py  
+- from_slicer_open()  
+- from_slicer_save()  
+- from_slicer_create_gcode()  
+
+## 5. cylinder.py  
+- new_cylinder_create_gcode()  
+
+## 6. layer0.py  
+- from_layer0_open(), save, create  
+
+## 7. rotation.py  
+- add_rotation_command_create_gcode()  
+
+## 8. zigzag.py  
+- zigzag_test_create_gcode()  
